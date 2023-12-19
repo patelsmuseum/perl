@@ -34,6 +34,12 @@ print("\n");
 
 print(@fruits);
 
+print("\n");
+
+
+my @number = (3 , 1 , 0 , 6 , 4 , 2);
+
+print(sort(@number));
 
 print("\n");
 
@@ -44,3 +50,19 @@ push(@stack , 4);
 push(@stack , 7);
 
 print("@stack");
+print("\n");
+
+my $elem = pop(@stack);
+
+print($elem , "\n");
+
+
+# ******************** queue *********************
+
+my @queue = ();
+
+unshift(@queue , 3);
+unshift(@queue , 2);
+unshift(@queue , 6);
+
+print(@queue , "\n");
