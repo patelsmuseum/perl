@@ -36,6 +36,8 @@ print("coverting to upper case " . (uc($s)) , "\n");
 $l = "THIS IS fOR CONVERTING TO LOWER CASE";
 print("converting to lower case " . (lc($l)), "\n");
 
+print("This is from the hello.pl file ");
+
 $r = "reversing this string";
 
 print scalar reverse($r) , "\n";              # reverse a string
