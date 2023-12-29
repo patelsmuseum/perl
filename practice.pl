@@ -1,5 +1,7 @@
 #!usr/bin/perl
 
+use warnings;
+
 $a = 4.5;
 
 print($a , "\n");
@@ -48,6 +50,13 @@ print($var , "\n");
 
 print(@fruits[1..3] , "\n");
 
+print("five to eight " , "\n" );
+
+
+@fruits[5..8] = "mango" , "apple" , "carrot" ;
+
+print(@fruits  , "\n");
+
 #stack
 
 my @stack = ();
@@ -63,9 +72,7 @@ pop(@stack);
 
 print(@stack , "\n");
 
-
 #queue 
-
 
 my @queue =();
 
@@ -81,6 +88,30 @@ $popped = pop(@queue);
 print($popped , "\n");
 
 print(@queue , "\n");
+
+unshift(@queue , 9);
+
+print(@queue , "\n");
+
+
+my $fr = "mango";
+
+$d = 1;
+
+if($d ==2 ){
+    my $fr = "apple";
+    print("from block level " , $fr);
+}
+
+print("global variable " , $fr);
+
+
+
+
+
+
+
+
 
 
 
